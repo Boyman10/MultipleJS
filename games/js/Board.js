@@ -31,6 +31,8 @@ class Board {
         for(let i = 0;i< this.line; i++)
             this.map.push(new Array(this.col));
 
+        console.log("Building board...");
+
         this.spotDifficulties();
 
     }
@@ -39,13 +41,15 @@ class Board {
 
         const position = (x) => {
 
-            let l = x / this.col;
-            let c = x % this.line;
+            let l = parseInt(x / this.col);
+            let c = parseInt(x % this.line);
 
             if (l > 0) {
                 c--;
                 l++;
             }
+
+            console.log(`position (${c},${l})`);
 
             return [c,l];
         }
@@ -57,9 +61,13 @@ class Board {
             console.log(`Here is the generated number ${tmp}`);
 
             const pos = position(tmp);
+
             this.map[pos[0]][pos[1]] = '1'; // Black brick
 
         }
+
+        console.log("Map filled");
+
     }
 
     getMap() {

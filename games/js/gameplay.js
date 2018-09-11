@@ -1,10 +1,12 @@
-import Player from "./Player";
-import Board from "./Board";
+//import Player from "./Player";
+import Board from "./Board.js";
 
 /**
  * Here we do things
  **/
-$.ready(function(){
+$(function(){
+
+    console.log("here we are game play...");
 
     // Draw a table with cells
     let html = "<table>";
@@ -15,8 +17,10 @@ $.ready(function(){
 
     // add weapons...
 
-    // Show the map :
+    // retrieve the map and organize the display :
     myBoard.getMap().forEach(function(elt) {
+
+        console.log("New line from map");
 
         html += "<tr>";
 
@@ -29,5 +33,7 @@ $.ready(function(){
     });
 
     html += "</table>";
+
+    $("#board").append(html);
 
 });
