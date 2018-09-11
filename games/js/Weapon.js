@@ -1,3 +1,5 @@
+"use strict";
+
 class Weapon {
 
     constructor(name,power = 10, image) {
@@ -6,3 +8,5 @@ class Weapon {
         this.image = image;
     }
 }
+
+export default Weapon;

@@ -10,3 +10,24 @@ main {
     margin :auto;
     max-width : 1200px;
 }
+
+main table {
+
+    display : block;
+    margin : auto;
+    border-spacing : 0;
+    border-collapse : collapse;
+}
+
+main table tr td {
+    display : block;
+    width : 20px;
+    height : 20px;
+    background-color : white;
+    border : 1px solid black;
+
+}
+
+main table tr td.black {
+    background-color : darkgray;
+}

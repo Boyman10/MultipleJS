@@ -8,6 +8,9 @@ class Board {
         this.col = col;
         this.line = line;
         this.difficulty = difficulty;
+
+        this.weapons = [];
+        this.map = [];
     }
 
     addWeapon(weapon) {
@@ -36,8 +39,8 @@ class Board {
 
         const position = (x) => {
 
-            const l = x / this.col;
-            const c = x % this.line;
+            let l = x / this.col;
+            let c = x % this.line;
 
             if (l > 0) {
                 c--;
@@ -58,4 +61,10 @@ class Board {
 
         }
     }
+
+    getMap() {
+        return this.map;
+    }
 }
+
+export default Board;
