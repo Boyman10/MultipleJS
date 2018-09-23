@@ -25,7 +25,7 @@ $(function(){
         html += "<tr>";
 
         elt.forEach(function(item) {
-            html += `<td class="${(item === 1)?"black":""}"></td>`;
+            html += `<td class="${(item === '1')?"black":""}"></td>`;
         });
 
         html += "</tr>";

@@ -10,7 +10,7 @@ class Board {
         this.difficulty = difficulty;
 
         this.weapons = [];
-        this.map = [];
+        this.map = new Array(line);
     }
 
     addWeapon(weapon) {
@@ -28,9 +28,14 @@ class Board {
     buildBoard() {
 
         // generate the 2D array
-        for(let i = 0;i< this.line; i++)
-            this.map.push(new Array(this.col));
+        for(let i = 0;i< this.line; i++) {
+            this.map[i] = new Array(this.col);
+            for (let j = 0; j < this.col; j++) {
 
+                this.map[i][j] = '0';
+
+            }
+        }
         console.log("Building board...");
 
         this.spotDifficulties();
@@ -41,17 +46,12 @@ class Board {
 
         const position = (x) => {
 
-            let l = parseInt(x / this.col);
-            let c = parseInt(x % this.line);
+            let l = parseInt(x / this.line);
+            let c = parseInt(x % this.col);
 
-            if (l > 0) {
-                c--;
-                l++;
-            }
+            console.log(`position (${l},${c})`);
 
-            console.log(`position (${c},${l})`);
-
-            return [c,l];
+            return [l,c];
         }
 
         for(let i = 0;i < this.difficulty; i++) {

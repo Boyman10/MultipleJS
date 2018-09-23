@@ -13,14 +13,12 @@ main {
 
 main table {
 
-    display : block;
     margin : auto;
     border-spacing : 0;
     border-collapse : collapse;
 }
 
 main table tr td {
-    display : block;
     width : 20px;
     height : 20px;
     background-color : white;
