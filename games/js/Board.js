@@ -1,5 +1,7 @@
 "use strict";
 
+import Tools from "./tools/Tools.js";
+
 class Board {
 
 
@@ -11,6 +13,7 @@ class Board {
 
         this.weapons = [];
         this.map = new Array(line);
+        this.players = [];
     }
 
     addWeapon(weapon) {
@@ -44,15 +47,8 @@ class Board {
 
     spotDifficulties() {
 
-        const position = (x) => {
 
-            let l = parseInt(x / this.line);
-            let c = parseInt(x % this.col);
 
-            console.log(`position (${l},${c})`);
-
-            return [l,c];
-        }
 
         for(let i = 0;i < this.difficulty; i++) {
 
@@ -60,7 +56,7 @@ class Board {
 
             console.log(`Here is the generated number ${tmp}`);
 
-            const pos = position(tmp);
+            const pos = Tools.position(tmp,this.line, this.col);
 
             this.map[pos[0]][pos[1]] = '1'; // Black brick
 
@@ -73,6 +69,28 @@ class Board {
     getMap() {
         return this.map;
     }
+
+
+    /**
+     * Randomly spot a player
+     * Beware not touching other players !
+     */
+    spotPlayer(player) {
+
+        const tmp = Math.floor(Math.random() * this.col * this.line);
+
+        console.log(`Here is the generated number ${tmp}`);
+
+        const pos = Tools.position(tmp,this.line, this.col);
+
+        if (this.map[pos[0]][pos[1]] !== '0')
+            spotPlayer(player);
+        else {
+            this.map[pos[0]][pos[1]] = "<img src=\"images/" + player.getIcon() + ".png\">"; // Black brick
+            this.player.setPosition(pos);
+        }
+    }
+
 }
 
 export default Board;
