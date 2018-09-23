@@ -22,8 +22,8 @@ $(function(){
     myBoard.addPlayer(playerOne);
     myBoard.addPlayer(playerTwo);
 
-    myBoard.spotPlayer(playerOne);
-    myBoard.spotPlayer(playerTwo);
+    myBoard.spotPlayer(0);
+    myBoard.spotPlayer(1);
 
     // add weapons...
 

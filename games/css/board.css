@@ -29,3 +29,8 @@ main table tr td {
 main table tr td.black {
     background-color : darkgray;
 }
+
+main table tr td img {
+    max-width: 24px;
+}
+

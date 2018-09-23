@@ -75,7 +75,7 @@ class Board {
      * Randomly spot a player
      * Beware not touching other players !
      */
-    spotPlayer(player) {
+    spotPlayer(playerIndex) {
 
         const tmp = Math.floor(Math.random() * this.col * this.line);
 
@@ -84,10 +84,10 @@ class Board {
         const pos = Tools.position(tmp,this.line, this.col);
 
         if (this.map[pos[0]][pos[1]] !== '0')
-            spotPlayer(player);
+            this.spotPlayer(playerIndex);
         else {
-            this.map[pos[0]][pos[1]] = "<img src=\"images/" + player.getIcon() + ".png\">"; // Black brick
-            this.player.setPosition(pos);
+            this.map[pos[0]][pos[1]] = "<img src=\"images/" + this.players[playerIndex].getIcon() + ".png\">"; // Black brick
+            this.players[playerIndex].setPosition(pos);
         }
     }
 
