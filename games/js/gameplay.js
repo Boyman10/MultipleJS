@@ -1,5 +1,6 @@
 import Player from "./Player.js";
 import Board from "./Board.js";
+import Game from "./Game.js";
 
 /**
  * Here we do things
@@ -50,5 +51,8 @@ $(function(){
     html += "</table>";
 
     $("#board").append(html);
+
+    // Init the game :
+    let theGame = new Game(playerOne);
 
 });
