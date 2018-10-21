@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3d6c856-e49b-42c1-9cf4-57077d72a002" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/games/js/Game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/boarding_play.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/boarding_play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/js/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/games/js/Board.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/games/js/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/js/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/games/js/Player.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games/js/gameplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/games/js/gameplay.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,29 +54,29 @@
     <session id="886593891">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="288" />
           <entry key="html" value="58" />
-          <entry key="js" value="2233" />
-          <entry key="txt" value="201" />
+          <entry key="js" value="2762" />
+          <entry key="txt" value="290" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="288" />
           <entry key="HTML" value="65" />
-          <entry key="JavaScript" value="2226" />
-          <entry key="PLAIN_TEXT" value="201" />
+          <entry key="JavaScript" value="2755" />
+          <entry key="PLAIN_TEXT" value="290" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/games/boarding_play.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -104,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/games/js/Board.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+            <state relative-caret-position="1581">
+              <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -113,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/games/js/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="442">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -140,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/games/js/Player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -149,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/games/js/gameplay.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="935">
+              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -188,11 +189,11 @@
         <option value="$PROJECT_DIR$/games/js/board.js" />
         <option value="$PROJECT_DIR$/games/js/Weapon.js" />
         <option value="$PROJECT_DIR$/games/js/tools/Tools.js" />
-        <option value="$PROJECT_DIR$/games/js/Player.js" />
-        <option value="$PROJECT_DIR$/games/js/Board.js" />
         <option value="$PROJECT_DIR$/games/css/board.css" />
         <option value="$PROJECT_DIR$/games/boarding_play.html" />
         <option value="$PROJECT_DIR$/games/js/gameplay.js" />
+        <option value="$PROJECT_DIR$/games/js/Player.js" />
+        <option value="$PROJECT_DIR$/games/js/Board.js" />
         <option value="$PROJECT_DIR$/games/js/Game.js" />
       </list>
     </option>
@@ -287,7 +288,8 @@
       <workItem from="1537729559892" duration="2232000" />
       <workItem from="1537732287233" duration="1087000" />
       <workItem from="1537859650929" duration="22000" />
-      <workItem from="1538597625265" duration="761000" />
+      <workItem from="1538597625265" duration="1010000" />
+      <workItem from="1540146207705" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="About to test our map generation and display. ES6 import and class def.">
       <created>1536695248565</created>
@@ -317,17 +319,24 @@
       <option name="project" value="LOCAL" />
       <updated>1537733284938</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="The game feature - new class and display of user name -* now time to move !">
+      <created>1538598623924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538598623924</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15351000" />
+    <option name="totallyTimeSpent" value="18310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="466" y="0" width="1434" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27510917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.279476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -340,7 +349,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35254988" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35254988" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,20 +368,14 @@
     <MESSAGE value="ALmost there - check out the map generation - missing default white spots..." />
     <MESSAGE value="Onto players placement" />
     <MESSAGE value="Players spotted :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Players spotted :)" />
+    <MESSAGE value="The game feature - new class and display of user name -* now time to move !" />
+    <option name="LAST_COMMIT_MESSAGE" value="The game feature - new class and display of user name -* now time to move !" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/games/js/tools/Tools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/js/Weapon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -385,39 +388,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/games/boarding_play.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/js/Player.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/js/gameplay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="935">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/games/js/Player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/js/Weapon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/games/js/Board.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+        <state relative-caret-position="1581">
+          <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/js/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="442">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

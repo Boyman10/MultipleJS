@@ -17,6 +17,11 @@ class Player {
     setPosition(pos) {
         this.pos = pos;
     }
+
+    getPosition() {
+        return this.pos;
+    }
+
 }
 
 export default Player;

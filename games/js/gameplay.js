@@ -53,6 +53,8 @@ $(function(){
     $("#board").append(html);
 
     // Init the game :
-    let theGame = new Game(playerOne);
+    let theGame = new Game(playerOne, myBoard);
+
+    theGame.displayButtons();
 
 });

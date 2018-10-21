@@ -91,6 +91,18 @@ class Board {
         }
     }
 
+
+    /**
+     * Left move for a player
+     * @param player
+     */
+    goLeft(player) {
+
+        console.log("PLayer move on the left");
+
+        player.setPosition(player.getPosition() - 1 );
+    }
+
 }
 
 export default Board;
